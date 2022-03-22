@@ -21,3 +21,22 @@ html,body{
   text-align: center;
   margin: 10px;
 }
+
+.formContainer{
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  width: 500px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 10;
+  border-radius: 10px;
+}
+.logintitle{
+  color:#fff;
+  font-size:30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
